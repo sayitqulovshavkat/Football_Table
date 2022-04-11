@@ -5,7 +5,6 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.example.footballtable.R
 import com.example.footballtable.adapters.ClubInfoRvAdapter
 import com.example.footballtable.databinding.FragmentTableBinding
 import com.example.footballtable.models.club.FootballClub
