@@ -15,7 +15,7 @@ interface ApiService {
     @GET("leagues/{id}/standings")
     suspend fun getItemFootballClub(
         @Path("id") id: String,
-        @Query("season") season: String = "2021",
+        @Query("season") season: String = "2022",
         @Query("sort") sort: String = "asc"
     ): Response<FootballClub>
 }
